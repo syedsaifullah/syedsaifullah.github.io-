@@ -1,0 +1,137 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+.container
+{
+    width:100%;
+}
+.wrapper
+{
+	margin:auto;
+	width:900px;
+	padding:0px;
+}
+.dark
+{
+	background-color:black;
+	color:red;
+	padding:0px;
+}
+.light
+{
+	background-color:#e9edf2;
+	padding:0px;
+}
+#top_div
+{
+	font-family:Ravie;
+	height:60px;
+	line-height:60px;
+}
+#top_left
+{
+	display:inline-block;
+}
+#top_right
+{
+	float:right;
+}
+#logo_left
+{
+	margin-left:240px;
+}
+.hac
+{
+    margin-bottom:15px;
+	margin-left:350px;
+	display:inline-block;
+	width:150px;
+	height:50px;
+	overflow:hidden;
+	position:relative;
+	margin-top:10px;
+	margin-right:10px;
+	border-radius:50px;
+}
+
+.inner
+{
+	width:300px;
+	height:50px;
+	font:bold 16px/50px "Ravie";
+	position:absolute; right: 0;
+	color:#e9edf2;
+	text-decoration:none;
+	white-space:pre;
+	transition:width .7s, color .7s;
+}
+
+.inner:before
+{
+	content:"";
+	position:absolute;
+	width:139px;
+	height:39px;
+	right:5px;
+	top:5px;
+	border-radius:50px;
+}
+.color1
+{
+	background:linear-gradient(60deg, deepskyblue 150px,#333 180px, #333);
+	text-align:center;
+}
+.color2
+{
+	background-color:lightgreen;
+	text-align:right;
+}
+.color2:before
+{
+	border:1px solid #333;	
+}
+.color3
+{
+	background:linear-gradient(60deg, pink 150px,#333 180px, #333);
+	text-align:center;
+}
+.inner:hover
+{
+	width: 150px;
+	color: black;
+}
+h1
+{
+	color:#003B46;
+	font-family:Ravie;
+	font-size:50px;
+	text-align:center;
+	margin-top:30px;
+}
+p
+{
+	margin-top:20px;
+	color:#66A5AD;
+	text-align:center;
+	font-family:Ravie;
+	font-size:20px;
+}
+h2
+{
+	color:#07575B;
+	font-family:Ravie;
+	font-size:40px;
+	text-align:center;
+	margin-top:20px;
+}
+h4
+{
+	color:#90AFC5;
+	margin-top:20px;
+	margin-left:200px;
+	margin-right:200px;
+	font-family:Ravie;
+	font-size:20px;
+}
